@@ -2,7 +2,11 @@
 
 Code Repository for CS ECE 5834 - Advanced Machine Learning.
 
-Authors: Sarvesh Patil (sarveshpatil@vt.edu), Pranjal Ranjan (pranjalranjan@vt.edu), Ankit Parekh (ankitparekh@vt.edu) & Badhrinarayan Malolan (badhrinarayan@vt.edu) [Canvas Group: Remote Sensing Change Detection]
+Authors: [Canvas Group: Remote Sensing Change Detection]
+1. Sarvesh Patil (sarveshpatil@vt.edu) 
+2. Pranjal Ranjan (pranjalranjan@vt.edu)
+3. Ankit Parekh (ankitparekh@vt.edu)
+4. Badhrinarayan Malolan (badhrinarayan@vt.edu) 
 
 ## Repository Index
 
