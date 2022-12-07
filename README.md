@@ -1,8 +1,8 @@
-# Augmented Convolutional Neural Networks for Remote Sensing Change Detection 
+# :artificial_satellite: Augmented Convolutional Neural Networks for Remote Sensing Change Detection 
 
-Code Repository for CS ECE 5834 - Advanced Machine Learning.
+:card_index_dividers: Code Repository for CS ECE 5834 - Advanced Machine Learning 
 
-Authors: [Canvas Group: Remote Sensing Change Detection]
+:black_nib: Authors: [Canvas Group: Remote Sensing Change Detection]
 1. Sarvesh Patil (sarveshpatil@vt.edu) 
 2. Pranjal Ranjan (pranjalranjan@vt.edu)
 3. Ankit Parekh (ankitparekh@vt.edu)
@@ -18,5 +18,4 @@ Authors: [Canvas Group: Remote Sensing Change Detection]
 | **AML_Pretrain.ipynb**                | _Notebook for training augmented network with pretrained imagenet encoder_ |      Phase II     |
 | **AML_Noisy_Test.ipynb**              | _Notebook for testing all networks on noisy data_                          |     Phase III     |
 | **AML_Evaluation.ipynb**              | _Notebook for evaluating results for all phases_                           |   Phase I/II/III  |
-| **README.md**                         | _Description file for the repository_                                      |         ---       |                                                                                                              |
-
+| **README.md**                         | _Description file for the repository_                                      |         ---       |                                    
