@@ -10,12 +10,11 @@
 
 ## Repository Index
 
-| **File**                              | **Description**                                                            | **Project Phase** |
-|---------------------------------------|----------------------------------------------------------------------------|-------------------|
-| **AML_Initial_Model_Selection.ipynb** | _Notebook for initial baselining and model selection_                      |      Phase I      |
-| **AML_Unaugmented.ipynb**             | _Notebook for training unaugmented networks_                               |      Phase II     |
-| **AML_Data_Augmentation.ipynb**       | _Notebook for training augmented network with edge maps and MRA_           |      Phase II     |
-| **AML_Pretrain.ipynb**                | _Notebook for training augmented network with pretrained imagenet encoder_ |      Phase II     |
-| **AML_Noisy_Test.ipynb**              | _Notebook for testing all networks on noisy data_                          |     Phase III     |
-| **AML_Evaluation.ipynb**              | _Notebook for evaluating results for all phases_                           |   Phase I/II/III  |
-| **README.md**                         | _Description file for the repository_                                      |         ---       |                                    
+|              **File**             |                              **Description**                             |                                         **Model**                                         |                                 **Challenge**                                |
+|:---------------------------------:|:------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------:|
+| AML_Initial_Model_Selection.ipynb |            Notebook for initial baselining and model selection           |                         Unaugmented: EF, Siam-Conc.   & Siam-Diff                         |                               Original Dataset                               |
+|       AML_Unaugmented.ipynb       |     Notebook for training unaugmented networks for few-shot learning     |                                      Unaugmented: EF                                      |                               Few-shot learning                              |
+|    AML_Data_Augmentation.ipynb    |      Notebook for training augmented network with edge maps and MRA      |                                 Augmented: EF (Edge & MRA)                                |                     Original Dataset & Few-shot learning                     |
+|         AML_Pretrain.ipynb        | Notebook for training augmented network with pretrained imagenet encoder |                            Augmneted: EF (Pretrained   Encoder)                           |                     Original Dataset & Few-shot learning                     |
+|        AML_Evaluation.ipynb       |              Notebook for evaluating results for all phases              | Unaugmented: EF, Siam-Conc.   & Siam-Diff & Augmented models: EF (Edge, MRA & Pretrained) | Original Dataset, Few-shot learning, Noise Robustification & Dataset   Shift |
+|             README.md             |                    Description file for the repository                   |                                            ---                                            |                                      ---                                     |                                 
