@@ -40,7 +40,11 @@
 
   * Dataset Shift & Noise Robustness:
 
->> Run the first cell inside the **_AML_Evaluation.ipynb_** notebook with both the dataset choices (“LEVIRCD_Plus” & “WHU”) to download the primary and alternate dataset. Sequentially run all the cells below to get the results for Dataset Shift and Noise Robustness experiments.
+>> Run the first cell inside the **_AML_Evaluation.ipynb_** notebook with both the dataset choices (“LEVIRCD_Plus” & “WHU”) to download the primary and alternate dataset. 
+
+>> Run the second cell inside the **_AML_Evaluation.ipynb_** notebook to import requisite libraries.
+
+>> Scroll to the Phase III Dataset Shift & Noise Robustness results section of the notebook, and run the cells sequentially to reproduce the results. 
 
   * Few-shot Learning:
   
