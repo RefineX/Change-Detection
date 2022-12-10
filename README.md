@@ -18,3 +18,38 @@
 |         AML_Pretrain.ipynb        | Notebook for training augmented network with pretrained imagenet encoder |                            Augmneted: EF (Pretrained   Encoder)                           |                     Original Dataset & Few-shot learning                     |
 |        AML_Evaluation.ipynb       |              Notebook for evaluating results for all phases              | Unaugmented: EF, Siam-Conc.   & Siam-Diff & Augmented models: EF (Edge, MRA & Pretrained) | Original Dataset, Few-shot learning, Noise Robustification & Dataset   Shift |
 |             README.md             |                    Description file for the repository                   |                                            ---                                            |                                      ---                                     |                                 
+
+## :white_check_mark: Instructions to run the notebooks:
+
+### 1.	**For Phase I**: 
+
+>> Run the cells inside the **_AML_Initial_Model_Selection.ipynb_** notebook sequentially to train and test the three Unaugmented networks (EF, Siam-Conc. & Siam-Diff.).
+
+>>> Use the default values in the ```Dataset Downloader``` & ```Dataset Characteristics``` cells.
+
+### 2.	**For Phase II**: 
+
+>> Run the cells inside the **_AML_Data_Augmentation.ipynb_** notebook sequentially to train and test Edge-Augmented & MRA-Augmented networks.
+
+>> Run the cells inside the **_AML_Pretrain.ipynb_** notebook sequentially to train and test Feature-Augmented networks.
+  
+>>> Use the default values in the ```Dataset Downloader``` & ```Dataset Characteristics``` cells.
+>>> Use the default values in the ```Subset Choice``` cell.
+  
+### 3.	**For Phase III**:
+
+  * Dataset Shift & Noise Robustness:
+
+>> Run the first cell inside the **_AML_Evaluation.ipynb_** notebook with both the dataset choices (“LEVIRCD_Plus” & “WHU”) to download the primary and alternate dataset. Sequentially run all the cells below to get the results for Dataset Shift and Noise Robustness experiments.
+
+  * Few-shot Learning:
+  
+>> Run the cells inside the **_AML_Unaugmented.ipynb_** notebook sequentially to train and test few-shot learning for Unaugmented EF network.
+  
+>> Run the cells inside the **_AML_Data_Augmentation.ipynb_** notebook sequentially to train and test few-shot learning for Edge-Augmented & MRA-Augmented EF network.
+  
+>> Run the cells inside the **_AML_Pretrain.ipynb_** notebook sequentially to train and test few-shot learning for Feature-Augmented EF network.
+  
+>>> Use the default values in the ```Dataset Downloader``` & ```Dataset Characteristics``` cells.
+
+>>> Select respective subset percentage values (25 & 50) in the ```Subset choice``` cell for the respective experiment.
