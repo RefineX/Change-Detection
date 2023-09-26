@@ -57,3 +57,17 @@
 >>> Use the default values in the ```Dataset Downloader``` & ```Dataset Characteristics``` cells.
 
 >>> Select respective subset percentage values (25 & 50) in the ```Subset choice``` cell for the respective experiment.
+
+## :star2: Qualitative Results
+
+### Qualitative Result I
+
+![Alt text](qualitative_result_I_A.png?raw=true)
+
+![Alt text](qualitative_result_I_B.png?raw=true)
+
+### Qualitative Result II
+
+![Alt text](qualitative_result_II_A.png?raw=true)
+
+![Alt text](qualitative_result_II_B.png?raw=true)
